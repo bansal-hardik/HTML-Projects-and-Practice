@@ -1,0 +1,193 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Seoge UI','Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white;
+}
+
+header{
+    background-color: #333;
+    color:#fff;
+    padding: 20px;
+}
+
+nav{
+    display :flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo{
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.nav-links{
+    display: flex;
+    list-style-type: none;
+}
+
+.nav-links li{
+    margin-left: 20px;
+
+}
+
+.nav-links a{
+    color :#fff;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+#hero{
+    background-image: url("hero.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+
+}
+
+.hero-text{
+    text-align: center;
+}
+
+.hero-text h1{
+
+    font-size: 40px;
+    color: burlywood;
+}
+
+.hero-text p{
+    font-size: 18px;
+    color:#fff ;
+    margin-bottom: 30px;
+}
+
+.btn{
+    padding: 10px 20px;
+    background-color: #333;
+    color: #fff;
+    border-radius: 5px;
+    text-decoration: none;
+    transition: background-color 0.3s ease-in 
+}
+
+.btn:hover{
+    background-color: #fff ;
+    color : #333;
+}
+
+#about{
+    background-image: url("Coffee3.avif");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    opacity: 80;
+}
+
+.about-text{
+    text-align: center;
+    margin: bottom;
+}
+
+.about-text h2{
+    font-size: 40px;
+    color: darkslategray;
+}
+
+.about-text p{
+    font-size: 20px;
+    color: black;
+    background-color: white;
+    padding: 40px;
+    width: 600px;
+    height: 220px;
+}
+
+#menu{
+    background-image: url("Coffee3.avif");
+    background-size: cover;
+    background-position: center;
+    height: 500px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color:#fff;
+    opacity: 80;
+    padding: 80px 0;
+}
+.menu-text{
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: grey;
+    margin-bottom: 30px;
+}
+
+.menu-text h2{
+    justify-content: center;
+    align-items: center;
+    font-size: 32px;
+    font-weight: bold;
+    color: white;
+}
+
+
+.menu-text p{
+    justify-content: center;
+    align-items: center;
+    font-size: 18px;
+    color: whitesmoke;
+    margin-bottom: 30px;
+}
+.menu-items{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+
+.menu-item{
+    background-color: white;
+    padding: 30px;
+    margin: 10px;
+    text-align: center;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transition: box-shadow 0.3s ease-in;
+}
+
+.menu-item img{
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+.menu-item h3{
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.menu-item p{
+    text-align: center;
+    color: black;
+    margin-bottom: 50px;
+}
+
+.menu-item:hover{
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+    transform: translateX(-5px);
+}
